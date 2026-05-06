@@ -1,0 +1,30 @@
+/* style.css */
+
+/* General root styles */
+
+
+/* Top navigation buttons */
+.fx-nav-button {
+    -fx-background-color: #34495e;   /* Dark blue-gray */
+    -fx-text-fill: #ecf0f1;          /* Light text */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20 8 20;          /* Top Right Bottom Left */
+    -fx-background-radius: 5;        /* Rounded corners */
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 2,0,0,1 );
+}
+
+/* Button hover effect */
+.fx-nav-button:hover {
+    -fx-background-color: #1abc9c;   /* Teal highlight */
+    -fx-text-fill: #ffffff;
+}
+
+/* Button pressed effect */
+.fx-nav-button:pressed {
+    -fx-background-color: #16a085;
+    -fx-text-fill: #ffffff;
+}
+
